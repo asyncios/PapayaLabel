@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'PapayaLabel_Example' do
+  pod 'PapayaLabel', :path => '../'
+
+  target 'PapayaLabel_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end
